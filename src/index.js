@@ -20,15 +20,4 @@ function buildToDo(todo) {
 function handleDelete(e){
   e.target.parentNode.remove()
 }
-/*
-function buildToDo(todo){
-  let listElement = document.createElement('li')
-  let btn = document.createElement('button')
-  btn.textContent = ' x '
-  listElement.textContent = `${todo} `
-  listElement.appendChild(btn)
 
-  document.querySelector('#list').appendChild(p)
-}
-
-*/
